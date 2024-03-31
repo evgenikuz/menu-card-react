@@ -1,0 +1,21 @@
+.favorite {
+    padding: 4px;
+    height:32px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    opacity: 0.5;
+    cursor: pointer;
+    border: 0px;   
+    border-radius: 4px;
+}
+.favorite svg{
+    fill:#414141;    
+}
+.favorite:hover svg{
+    transform: scale(1.1); 
+    fill:#f63;
+}
+.favorite:active svg .heart-icon{
+    fill:#F63;
+}

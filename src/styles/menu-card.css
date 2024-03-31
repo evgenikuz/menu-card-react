@@ -1,0 +1,17 @@
+.menu-card {
+    max-width: 272px;
+    box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 4px;
+    background-color: white;
+    overflow: hidden;
+}
+@media (min-width:600px) and (max-width:900px) {
+    .menu-card {
+        max-width: 370px;
+    }
+}
+@media (max-width:599px) {
+    .menu-card {
+        max-width: 550px;
+    }
+}

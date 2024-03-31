@@ -1,0 +1,10 @@
+.menu-pic img {
+    height:160px;
+    width:100%;
+    object-position: center;
+    object-fit: cover;
+}
+.menu-pic {
+    position: relative;
+    height:160px;
+}
